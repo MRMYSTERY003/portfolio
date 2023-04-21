@@ -41,6 +41,12 @@ ScrollReveal().reveal(".about-wrapper__image", {
   scale: 0.5,
 });
 
+ScrollReveal().reveal("#fait", {
+  ...defaultProps,
+  delay: 600,
+  scale: 0.5,
+});
+
 ScrollReveal().reveal(".about-wrapper__info", {
   ...defaultProps,
   delay: 700,
